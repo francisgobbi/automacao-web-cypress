@@ -1,0 +1,16 @@
+{
+  "name": "automacao-web-pgats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Francis Luiz Gobbi",
+  "license": "ISC",
+  "description": "Projeto disciplina Automação Web PGATS",
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
