@@ -34,7 +34,9 @@ export class RideComponent extends RoboComponent {
     /** @type {Person[]} */
     const people = [];
     //const heightInputs = [...this.by.id.heightInputs.querySelectorAll('input')];
-    const heightInputs = Array.from(this.by.id.heightInputs.querySelectorAll('input') );
+    const heightInputs = Array.from(
+      this.by.id.heightInputs.querySelectorAll('input'),
+    );
     for (let i = 0; i < this.numPeople; i++) {
       people.push({
         index: i + 1,
