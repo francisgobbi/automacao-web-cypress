@@ -5,10 +5,9 @@
   "scripts": {
     "lint": "npm run lint:ts && npm run lint:format",
     "lint:ts": "tsc -b jsconfig.json",
-    "lint:format": "prettier --check --ignore-path .gitignore .",   
+    "lint:format": "prettier --check --ignore-path .gitignore .",
     "test:mutation": "npx stryker run",
-    "start": "lite-server",
-    "e2e": "npx playwright test",
+    "start": "lite-server",    
     "build": "babel src -d lib",
     "test": "jest",
     "format": "prettier --check --ignore-path .gitignore ."
@@ -28,5 +27,4 @@
   "dependencies": {
     "start": "^5.1.0"
   }
- 
 }
