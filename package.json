@@ -11,6 +11,10 @@
   "description": "Projeto disciplina Automação Web PGATS",
   "devDependencies": {
     "cypress": "^13.7.3",
-    "cypress-mochawesome-reporter": "^3.8.2"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "playwright": "^1.48.2"
+  },
+  "dependencies": {
+    "start": "^5.1.0"
   }
 }
