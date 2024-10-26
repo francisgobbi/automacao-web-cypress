@@ -33,7 +33,7 @@ jobs:
         run: yarn playwright install
 
       - name: Testes E2E (end-to-end)
-        run: yarn run e2e
+        run: yarn run cypress run
 
       # passed, faled, cancelled
       - uses: actions/upload-artifact@v4
