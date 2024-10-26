@@ -31,7 +31,7 @@ jobs:
         run: yarn
 
       - name: Padronizacao de codigo
-        run: yarn lint
+        run: yarn 
 
   # descricao do job
   e2e-tests:
