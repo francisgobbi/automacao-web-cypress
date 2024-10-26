@@ -30,7 +30,7 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      - name: Padronizaacaop de codigo
+      - name: Padronizacao de codigo
         run: yarn lint
 
   # descricao do job
@@ -52,11 +52,11 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      - name: Instalando Playwright
-        run: yarn playwright install
+      - name: Instalando Cypress
+        run: yarn cypress install
 
-      - name: Testes E2E (end-to-end)
-        run: yarn run cypress run
+      - name: Testes E2E
+        run: yarn run e2e
 
       # passed, faled, cancelled
       - uses: actions/upload-artifact@v4
