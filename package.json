@@ -10,7 +10,8 @@
     "start": "lite-server",    
     "build": "babel src -d lib",
     "test": "jest",
-    "format": "prettier --check --ignore-path .gitignore ."
+    "format": "prettier --check --ignore-path .gitignore .",
+    "e2e": "npx cypress test"
   },
   "keywords": [],
   "author": "Francis Luiz Gobbi",
