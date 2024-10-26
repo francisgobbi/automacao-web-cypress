@@ -32,12 +32,12 @@ jobs:
 
       - name: Padronizaacaop de codigo
         run: yarn lint
-        
+
   # descricao do job
   e2e-tests:
     # maquina que o job vai executar
     runs-on: ['ubuntu-latest']
-
+    needs: [inspection]
     # passo a passo das acoes do job
     steps:
       - uses: actions/checkout@v4
