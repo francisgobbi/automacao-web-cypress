@@ -2,7 +2,7 @@
   "name": "automacao-web-pgats",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "lint": "npm run lint:ts && npm run lint:format",
     "lint:ts": "tsc -b jsconfig.json",
     "lint:format": "prettier --check --ignore-path .gitignore .",

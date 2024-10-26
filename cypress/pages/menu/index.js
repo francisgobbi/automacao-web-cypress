@@ -3,7 +3,7 @@ class Menu {
     cy.contains(`Products`).click();
   }
   irParaLoginCadastro() {
-    cy.contains("Signup ").click();
+    cy.contains('Signup ').click();
   }
 }
 
