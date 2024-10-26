@@ -63,5 +63,5 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: relatorio-de-testes
-          path: ./playwright-report
+          path: ./cypress/reports/html
           

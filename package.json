@@ -11,7 +11,7 @@
     "build": "babel src -d lib",
     "test": "jest",
     "format": "prettier --check --ignore-path .gitignore .",
-    "e2e": "npx playwright test"
+     "e2e": "npx cypress run"
   },
   "keywords": [],
   "author": "Francis Luiz Gobbi",
