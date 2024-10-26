@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "Projeto disciplina Automação Web PGATS",
   "devDependencies": {
-    "cypress": "^13.7.3",
+    "cypress": "^13.15.1",
     "cypress-mochawesome-reporter": "^3.8.2",
     "playwright": "^1.48.2"
   },
